@@ -1,0 +1,68 @@
+/*
+ *What: mobile styling 
+ *Author: Dennis J
+ *Year: 2013
+*/
+@import "_grids.scss";
+
+@media all and (max-width: 720px) {
+body{
+	background:#888;	
+}
+
+/*home....*/
+#main-menu, #header{
+background-image:none;
+}	
+
+/*Studentenraden*/
+#block-menu-block-1 ul.menu{
+
+
+
+}
+
+/*searchbar*/
+block-search-form{
+
+}	
+
+
+/************************************************/
+
+
+#header{	
+	@include zen-grid-container;	 
+	 $zen-column-count: 1;
+    $zen-gutter-width: 10px; 
+	
+	  @include zen-grid-container;
+  width: 90%;
+  margin: 0 auto;
+}	
+/*home....*/
+#main-menu{
+	@include zen-grid-item(1, 1);
+	background: #FF0;
+}	
+
+
+/*Studentenraden*/
+#block-menu-block-1 ul.menu{
+	@include zen-clear();
+	@include zen-grid-item(1, 1);
+ 	background: #F00;
+}
+
+/*searchbar*/
+block-search-form{
+	@include zen-grid-item(1, 1);
+	background: #00F;
+}
+
+
+	
+	
+
+	
+}

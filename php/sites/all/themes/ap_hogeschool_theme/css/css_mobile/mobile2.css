@@ -1,0 +1,335 @@
+/*
+ *What: mobile styling 
+ *Author: Dennis J
+ *Year: 2013
+*/
+/*
+page bestaat uit 3 grote componenten
+
+	- #header: omvat
+	
+	
+	- #main: omvat
+	
+	
+	- #footer: omvat
+*/
+@media all and (max-width: 720px) {
+  /* line 23, ../../sass/css_mobile/mobile2.scss */
+  #page, .region-bottom, body {
+    min-width: 0;
+    max-width: 720px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 25, ../../sass/css_mobile/mobile2.scss */
+  #header {
+    background: #cacaca;
+    max-width: 720px;
+    height: 550px;
+    padding: 0;
+  }
+
+  /* line 32, ../../sass/css_mobile/mobile2.scss */
+  #logo img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 10px;
+  }
+
+  /* line 42, ../../sass/css_mobile/mobile2.scss */
+  #main-menu {
+    float: none;
+    margin: 0px 0px 0px;
+    padding: 0;
+    background-image: none;
+    height: 400px;
+    /**Dennis maxwidth*/
+    max-width: 720px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* line 45, ../../sass/css_mobile/mobile2.scss */
+  #main-menu.open {
+    display: block;
+  }
+
+  /* line 46, ../../sass/css_mobile/mobile2.scss */
+  #main-menu ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 47, ../../sass/css_mobile/mobile2.scss */
+  #main-menu ul li {
+    border-bottom: 1px solid #D9D9D9;
+    clear: both;
+    float: none;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 48, ../../sass/css_mobile/mobile2.scss */
+  #main-menu ul li.first {
+    border-top: 1px solid #D9D9D9;
+  }
+
+  /* line 49, ../../sass/css_mobile/mobile2.scss */
+  #main-menu ul.navigation-items .menu-3578 {
+    display: block !important;
+  }
+
+  /* line 50, ../../sass/css_mobile/mobile2.scss */
+  #main-menu ul li a {
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    background-color: #6d6e71;
+    z-index: 10;
+  }
+
+  /* line 51, ../../sass/css_mobile/mobile2.scss */
+  #main-menu ul li a:hover, #main-menu ul li a.active {
+    background-image: none;
+    color: #000;
+    background-color: #5d5d5d;
+  }
+
+  /* line 54, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation {
+    max-width: 720px;
+    margin-bottom: 0;
+    height: 120px;
+  }
+
+  /*Kalender gedeelte*/
+  /* line 61, ../../sass/css_mobile/mobile2.scss */
+  #block-views-kalender-block-1 {
+    /*visibility:hidden;*/
+    display: none;
+  }
+
+  /* submenu's studentenraden*/
+  /* line 72, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-422,
+  .region-navigation .active-top-level-mlid-423,
+  .region-navigation .active-top-level-mlid-424,
+  .region-navigation .active-top-level-mlid-425,
+  .region-navigation .active-top-level-mlid-426,
+  .region-navigation .active-top-level-mlid-427,
+  .region-navigation .active-top-level-mlid-428 {
+    background-image: none;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 79, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-422 {
+    /*background-image:none;*/
+    background: #C40009;
+    /*rood*/
+    max-width: 720px;
+  }
+
+  /* line 85, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-423 {
+    background: #50a0aD;
+    /*blauwig*/
+  }
+
+  /* line 88, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-424 {
+    background: #950174;
+    /*paars*/
+  }
+
+  /* line 91, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-425 {
+    background: #62985B;
+    /*groen*/
+  }
+
+  /* line 94, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-426 {
+    background: #DE9700;
+    /*oranje*/
+  }
+
+  /* line 97, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-427 {
+    background: #7F6E68;
+    /*bruin*/
+  }
+
+  /* line 100, ../../sass/css_mobile/mobile2.scss */
+  .region-navigation .active-top-level-mlid-428 {
+    background: #585E5F;
+    /*grijs*/
+  }
+
+  /* line 104, ../../sass/css_mobile/mobile2.scss */
+  #ID_ASAP, #ID_G_W, #ID_KC, #ID_M_C, #ID_O_T, #ID_KASK, #ID_W_T {
+    padding-left: 0;
+  }
+
+  /* line 108, ../../sass/css_mobile/mobile2.scss */
+  #main {
+    background-image: none;
+    margin-left: 0;
+    padding-left: 0;
+    background: #cacaca;
+    max-width: 720px;
+    min-height: 0;
+  }
+
+  /* line 117, ../../sass/css_mobile/mobile2.scss */
+  .sidebar {
+    display: none;
+  }
+
+  /* line 121, ../../sass/css_mobile/mobile2.scss */
+  #nav-search-wrap {
+    margin: 0;
+  }
+
+  /* line 123, ../../sass/css_mobile/mobile2.scss */
+  #navigation-two {
+    float: none;
+    min-width: 220px;
+    max-width: 220px;
+    height: 210px;
+    width: 60%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    margin-top: 110px;
+  }
+
+  /* line 136, ../../sass/css_mobile/mobile2.scss */
+  #navigation-two ul.menu {
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 141, ../../sass/css_mobile/mobile2.scss */
+  #block-menu-block-2 {
+    float: none;
+    margin: 0px 0px 0px;
+    padding: 0;
+    background-image: none;
+    height: 200px;
+    /**Dennis maxwidth*/
+    max-width: 720px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* line 144, ../../sass/css_mobile/mobile2.scss */
+  #block-menu-block-2.open {
+    display: block;
+  }
+
+  /* line 145, ../../sass/css_mobile/mobile2.scss */
+  #block-menu-block-2 ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 146, ../../sass/css_mobile/mobile2.scss */
+  #block-menu-block-2 ul li {
+    clear: both;
+    float: none;
+    text-align: center;
+  }
+
+  /* line 147, ../../sass/css_mobile/mobile2.scss */
+  #block-menu-block-2 ul.menu li {
+    padding-right: 0px;
+  }
+
+  /* line 148, ../../sass/css_mobile/mobile2.scss */
+  #block-menu-block-2 ul.navigation-items .menu-3578 {
+    display: block !important;
+  }
+
+  /* line 149, ../../sass/css_mobile/mobile2.scss */
+  #block-menu-block-2 ul li a {
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    z-index: 10;
+  }
+
+  /* line 152, ../../sass/css_mobile/mobile2.scss */
+  #search-two {
+    overflow: visible;
+    background: #999;
+    max-width: 260px;
+    min-width: 260px;
+    margin: auto;
+    padding: auto;
+  }
+
+  /*vergrootglas geen background*/
+  /* line 162, ../../sass/css_mobile/mobile2.scss */
+  #edit-submit--2 {
+    background: none;
+  }
+
+  /* line 164, ../../sass/css_mobile/mobile2.scss */
+  .sidebar-first #content {
+    max-width: 480px;
+    width: 90%;
+    /*padding:auto;*/
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    	/*width: 50%;
+        margin: 0 auto;*/
+  }
+
+  /* Organigram hidden*/
+  /* line 180, ../../sass/css_mobile/mobile2.scss */
+  #block-views-view-organigram-button-block {
+    display: none;
+  }
+
+  /* line 182, ../../sass/css_mobile/mobile2.scss */
+  #main #content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 187, ../../sass/css_mobile/mobile2.scss */
+  .item-list {
+    max-width: 480px;
+    min-width: 480px;
+  }
+
+  /* line 193, ../../sass/css_mobile/mobile2.scss */
+  #footer {
+    background-image: none;
+    background: #666;
+    max-width: 720px;
+    padding: 0;
+    height: 200px;
+  }
+
+  /* line 201, ../../sass/css_mobile/mobile2.scss */
+  #block-user-login {
+    margin: auto;
+    padding: auto;
+    height: 200px;
+  }
+}

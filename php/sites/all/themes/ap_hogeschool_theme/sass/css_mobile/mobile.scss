@@ -1,0 +1,178 @@
+/*
+ *What: mobile styling 
+ *Author: Dennis J
+ *Year: 2013
+*/
+
+@media all and (max-width: 720px) {
+	
+#page, body{
+	max-width:720px;
+	width:100%;
+	float:left;
+	}
+	
+#header, #main, #footer, .region-navigation, #main-menu{
+	background-image:none;
+}
+
+#main, #footer, .region-navigation, #main-menu{
+	background:#AAA;
+}
+
+
+/*Kalender op hidden*/
+#block-views-kalender-block-1{
+	/*visibility:hidden;*/
+	display:none;
+	}
+.region-navigation .active-top-level-mlid-422,
+.region-navigation .active-top-level-mlid-423, 
+.region-navigation .active-top-level-mlid-424, 
+.region-navigation .active-top-level-mlid-425,
+.region-navigation .active-top-level-mlid-426,
+.region-navigation .active-top-level-mlid-427,
+.region-navigation .active-top-level-mlid-428{
+	background-image:none;
+}
+
+.region-navigation .active-top-level-mlid-422{
+	/*background-image:none;*/
+	background:#C40009; /*rood*/
+}
+.region-navigation .active-top-level-mlid-423 {	
+	background:#50a0aD; /*blauwig*/
+}
+.region-navigation .active-top-level-mlid-424 {
+	background:#950174; /*paars*/
+}
+.region-navigation .active-top-level-mlid-425{
+	background:#62985B; /*groen*/
+}
+.region-navigation .active-top-level-mlid-426{
+	background:#DE9700; /*oranje*/
+}
+.region-navigation .active-top-level-mlid-427{
+	background:#7F6E68; /*bruin*/
+}
+.region-navigation .active-top-level-mlid-428{
+	background:#585E5F; /*grijs*/
+}
+
+#nav-search-wrap{
+	padding:0;
+	margin:0;	
+	margin-left:0%;
+	}
+
+#search-two{
+	/*	margin-top:0;
+	padding-bottom:0;
+	
+	width:280px;*/
+	
+ padding-top:0;
+ padding-bottom: 10px;
+
+
+	}
+	
+#navigation-two{
+	
+	/*
+	margin:0;
+	padding-left:0;
+	text-align:center;
+	*/
+	display:block;
+	
+	}
+
+#block-search-form, #search-block-form{
+	margin:0;
+	}	
+	
+block-menu-block-1{	
+	margin-bottom:0;
+}
+	
+	
+#block-user-login{
+	/*margin:auto;
+	padding:auto;*/
+	margin-left:auto;
+	margin-right:auto;
+	max-width:320px;
+	}
+	
+#footer{
+	max-width:720px;
+	width:100%;
+	height:200px;
+	}
+	
+	
+
+	
+  #main-menu { float:none; margin:0px 0px 0px; padding:0;
+  /**Dennis maxwidth*/
+  max-width:720px; max-width: 100%; height: auto; }
+  #main-menu.open { display: block; }
+  #main-menu ul { padding:0; margin:0; }
+  #main-menu ul li { border-bottom: 1px solid #D9D9D9; clear: both; float: none; font-size:16px; line-height: 32px; margin:0; padding:0; text-align: center; }
+  #main-menu ul li.first { border-top: 1px solid #D9D9D9;}
+  #main-menu ul.navigation-items .menu-3578 { display:block !important; }
+  #main-menu ul li a{ color:#FFFFFF; width: 100%; display:block; background-color: #6d6e71; z-index:10; }
+  #main-menu ul li a:hover, #main-menu ul li a.active{ background-image: none; color: #000; background-color: #5d5d5d; }
+
+#main, #content{padding-left:0;}
+
+#content{  
+	  margin:0;	 
+	  float:none;
+	  margin-left:auto;
+	  margin-right:auto;  
+	  max-width:720px;
+}	
+
+#main{
+	margin:auto;
+	max-width:720px;
+	width:100%;
+	height:auto;
+	}
+	
+.sidebar-first  {
+	margin:0; 
+	padding:0;
+}
+
+
+	
+#header{
+	height:400px;
+	max-width:720px;
+	padding:0px;
+	}
+	
+.region-search-two{
+	background:#bebdbd;
+	padding:5px;
+	}
+
+	
+/*logo studentenraad*/
+#logo{
+float: left; 
+  margin: 0;
+  padding: 0;
+}
+#logo img {
+	margin-top:5px;
+	margin-left:10px;
+	/*vertical-align: bottom;*/
+	position:absolute;
+}
+
+	
+}

@@ -1,0 +1,208 @@
+/*
+ *What: mobile styling 
+ *Author: Dennis J
+ *Year: 2013
+*/
+
+
+/*
+page bestaat uit 3 grote componenten
+
+	- #header: omvat
+	
+	
+	- #main: omvat
+	
+	
+	- #footer: omvat
+*/
+
+@media all and (max-width: 720px) {
+	
+	
+#page, .region-bottom, body{ min-width:0; max-width:720px; margin-left:0; margin-right:0;}	
+	
+#header{
+	background:#cacaca;
+	max-width:720px;
+	height:550px;
+	padding:0;
+}
+
+#logo img{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:400px;
+	width:50%;
+	padding-left:25%;
+	padding-right:25%;
+	margin-top:10px;
+	}
+
+  #main-menu { float:none; margin:0px 0px 0px; padding:0; background-image:none; height:400px;
+  /**Dennis maxwidth*/
+  max-width:720px; max-width: 100%; height: auto; }
+  #main-menu.open { display: block; }
+  #main-menu ul { padding:0; margin:0; }
+  #main-menu ul li { border-bottom: 1px solid #D9D9D9; clear: both; float: none; font-size:16px; line-height: 32px; margin:0; padding:0; text-align: center; }
+  #main-menu ul li.first { border-top: 1px solid #D9D9D9;}
+  #main-menu ul.navigation-items .menu-3578 { display:block !important; }
+  #main-menu ul li a{ color:#FFFFFF; width: 100%; display:block; background-color: #6d6e71; z-index:10; }
+  #main-menu ul li a:hover, #main-menu ul li a.active{ background-image: none; color: #000; background-color: #5d5d5d; }
+
+
+.region-navigation{
+	max-width:720px;
+	margin-bottom:0;
+	height:120px;
+}
+
+/*Kalender gedeelte*/
+#block-views-kalender-block-1{
+	/*visibility:hidden;*/
+	display:none;
+}
+/* submenu's studentenraden*/
+.region-navigation .active-top-level-mlid-422,
+.region-navigation .active-top-level-mlid-423, 
+.region-navigation .active-top-level-mlid-424, 
+.region-navigation .active-top-level-mlid-425,
+.region-navigation .active-top-level-mlid-426,
+.region-navigation .active-top-level-mlid-427,
+.region-navigation .active-top-level-mlid-428{
+	background-image:none;
+	height:90px;
+	margin-left:auto;
+	
+	margin-right:auto;
+}
+
+.region-navigation .active-top-level-mlid-422{
+	/*background-image:none;*/
+	background:#C40009; /*rood*/
+	max-width:720px;
+	
+}
+.region-navigation .active-top-level-mlid-423 {	
+	background:#50a0aD; /*blauwig*/
+}
+.region-navigation .active-top-level-mlid-424 {
+	background:#950174; /*paars*/
+}
+.region-navigation .active-top-level-mlid-425{
+	background:#62985B; /*groen*/
+}
+.region-navigation .active-top-level-mlid-426{
+	background:#DE9700; /*oranje*/
+}
+.region-navigation .active-top-level-mlid-427{
+	background:#7F6E68; /*bruin*/
+}
+.region-navigation .active-top-level-mlid-428{
+	background:#585E5F; /*grijs*/	
+}
+
+#ID_ASAP, #ID_G_W, #ID_KC, #ID_M_C, #ID_O_T, #ID_KASK, #ID_W_T{
+	padding-left:0;
+} 
+
+#main{
+	background-image:none;
+		margin-left:0;
+		padding-left:0;
+		background:#cacaca;
+		max-width:720px;
+		min-height:0;
+	}
+
+.sidebar{
+	display:none;
+}
+	
+#nav-search-wrap{margin:0;}
+
+#navigation-two{
+	float:none;
+	min-width:220px;
+	max-width:220px;
+	height:210px;
+	width:60%;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12px;
+	margin-top:110px;
+}
+
+#navigation-two ul.menu{
+	padding:0;
+	text-align:center;
+}
+
+#block-menu-block-2 { float:none; margin:0px 0px 0px; padding:0; background-image:none; height:200px;
+  /**Dennis maxwidth*/
+  max-width:720px; max-width: 100%; height: auto; }
+#block-menu-block-2.open { display: block; }
+#block-menu-block-2 ul { padding:0; margin:0; }
+#block-menu-block-2 ul li {  clear: both; float: none;  text-align: center; }
+#block-menu-block-2 ul.menu li { padding-right:0px; }
+#block-menu-block-2 ul.navigation-items .menu-3578 { display:block !important; }
+#block-menu-block-2 ul li a{ color:#FFFFFF; width: 100%; display:block;  z-index:10; }
+
+
+#search-two{
+	overflow:visible;
+	background:#999;
+	max-width:260px;
+	min-width:260px;
+	margin:auto; 
+	padding:auto;
+}
+
+/*vergrootglas geen background*/
+#edit-submit--2{background:none;}
+	
+.sidebar-first #content{
+	max-width:480px;
+	
+	
+	width:90%;
+	/*padding:auto;*/
+
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	/*width: 50%;
+    margin: 0 auto;*/
+
+}	
+
+/* Organigram hidden*/
+#block-views-view-organigram-button-block{ display:none;}
+
+#main #content{
+	padding-left:0;
+	padding-right:0;
+}
+
+.item-list{	
+	max-width:480px;
+	min-width:480px;
+	}
+	
+	
+#footer{
+	background-image:none;
+	background:#666;
+	max-width:720px;
+	padding:0;
+	height:200px;
+	}
+	
+#block-user-login{
+	margin:auto; 
+	padding:auto;
+	height:200px;
+	}
+
+}
