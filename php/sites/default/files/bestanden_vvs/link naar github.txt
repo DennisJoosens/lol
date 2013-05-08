@@ -1,0 +1,9 @@
+git@github.com:jimmyraets/ap_communicatieplatform.git
+
+https://github.com/jimmyraets/
+
+public key dennis:
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA2E3xWvpyhpt3SgUWM/jEF9YAiXvhj3ruPP0ZDfQo/3Ozia9B0wiQuTTny4G4q+8PQF+ZDg63Vu75gb1c5fvXSQbRGzfPG7eDcDqMLntq491NGern8wIYLMPg1o+BVryR3jJCwGVVcT6LVngSdYuKZle6i8Qi1SWVSC//FLNugLsPnZ3kgb7fBq9VPkbhL+n2uxNxDaBUneYJ9Qzxbyqv2qudAMcOOV0dBdAZ8rucyCWxUi+Uml57Cj0KZOEk5gSP3ChK7tQIRg3MCdBvswvIUfg8KGHqiQMufYxhrXmvycQwbcjD6a6kmdwefZnKPfRD7fc3CY01ikG5ijyM3IOR9Q== dennis.joosens@student.artesis.be
+
+
+

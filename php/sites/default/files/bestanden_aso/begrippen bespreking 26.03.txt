@@ -1,0 +1,28 @@
+- float
+- css box model
+- vertical margin collapsing
+- clear
+- margin
+- padding
+- box-sizing
+- border box model
+- 
+
+
+*{
+-Moz-box-sizing:border-box;
+}
+
+
+- neem u groot pagina vlak, het vlak dat je ga centreren
+dit geef je als achtergrond de kleur van de achtergrond afbeelding(vreemd geribbeld ding) en de kleur van de achtergrond
+zet in de pagina zelf een header element met als achtergrond element de bovenkant van de afbeelding
+
+- de page.tpl.php schrijven. dit moet als eerste gedaan worden!!!!!!!
+
+- menu_blok:
+	> Voorzie 2 regions voor de menus:
+	> 1 voor de main
+	> de 2de voor de submenus
+
+- voor elke stura een menu blok aanmaken en deze plaatsen in de 2de menu region
